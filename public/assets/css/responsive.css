@@ -1,0 +1,117 @@
+/* Konten CSS utama */
+body {
+    background: linear-gradient(to right, #4d0371, #31045c, #19022e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+/* RESPONSIVE LANDING PAGE */
+@media (max-width: 768px) {
+    .navbar {
+        text-align: left;
+        align-items: white;
+        margin-bottom: 0;
+        
+    }
+
+    .navbar-brand {
+        padding: 0rem;
+    }
+    .container {
+        padding-top: 2rem;
+    }
+    .image {
+        
+        width: 70%;
+        height: auto;
+    }
+
+    .neon-button {
+        width: 100%;
+
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image {
+        order: 1; /* Mengatur gambar di atas teks */
+        margin-bottom: 1rem; /* Memberikan jarak antara gambar dan teks */
+    }
+
+    .text {
+        order: 2; /* Mengatur urutan teks di bawah gambar */
+        margin-top: 10px;
+    }
+    
+    .judul {
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    .judul2 {
+        font-size: 12px;
+    }
+
+    .paragraf{
+        font-size: 11px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    footer {
+        margin-top: 20px;
+        font-size: 11px;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .buttons {
+        text-align: center; /* Tombol login dan register di tengah */
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .neon-button {
+        max-width:160px; /* Mengatur lebar tombol pada tampilan responsif */
+        font-size: 13px; /* Mengatur ukuran teks tombol pada tampilan responsif */
+        align-items: center;
+        padding: 6px 7px;
+    }
+}
+
+.border-container {
+    background: linear-gradient(to right, #871bbe, #240343);
+    border-radius: 15px;
+    margin: 2rem 1rem  2rem 8rem ;
+    border-style: unset;
+    height: 32rem;
+    box-shadow: 0 0 10px #871bbe ;
+}
+
+/*============ LOGIN DAN REGIST =============*/
+
+@media (max-width: 768px) {
+    .border-container {
+        margin: 1rem;
+        padding: 1.1rem;
+    }
+    .judul3 {
+        font-size: 1.5rem;
+    }
+    .login-form {
+        margin-left: 1rem;
+        
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .border-container {
+        height: auto; 
+    }
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;200&display=swap');
+
+body {
+    background: linear-gradient(to right, #871bbe, #31045c, #19022e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(200, 18, 232);
+}
+.navbar-toggler .navbar-toggler-icon {
+    color: white !important;
+}
+
+
+/*================  LANDING PAGE ==============*/
+
+
+/*CONTENT*/
+.container {
+    padding-top: 1rem;
+    text-align: right;
+    color: white;
+}
+.judul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700; 
+}
+
+.judul2{
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.paragraf{
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    width: 480px; /* Lebar maksimum gambar */
+    height: 380px; /* Tinggi maksimum gambar */
+  }
+
+  .blink-animation {
+    animation: blink 7s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.text {
+    margin-top: 3rem;
+    flex: 1; /* Mengisi ruang tersedia secara penuh */
+  }
+
+.buttons {
+    text-align: right;
+  
+}
+
+.neon-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #6e00ff, #ff00c0);
+    color: #fff;
+    width: 150px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.login-button {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.register-button {
+    text-transform: uppercase;
+}
+
+.neon-button:hover {
+    background: linear-gradient(135deg, #ff00c0, #6e00ff);
+    box-shadow: 0 0 10px 2px rgba(111, 0, 255, 0.189),
+                0 0 20px 5px rgba(255, 0, 191, 0.193);
+}
+
+/*FOOTER*/
+footer {
+    margin-top:4rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(200, 53, 225);
+    padding: 10px; /* Ruang di sekitar teks */
+    font-family: Calibri;
+}
+
+
+
+
+/*============ LOGIN DAN REGIST =============*/
+/* CSS untuk mengatur layout dengan Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Membuat kontennya berdampingan */
+}
+
+.border-container {
+    background: linear-gradient(to right, #871bbe, #240343);
+    border-radius: 15px;
+    margin: 2rem 1rem  2rem 8rem ;
+    border-style: unset;
+    height: 32rem;
+    box-shadow: 0 0 10px #871bbe ;
+}
+
+.form-group {
+    margin: 8px 0;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.judul3 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;  
+    font-weight: 600;
+    color:  rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-top: 1rem;
+}
+
+.registration-text{
+    margin-right: 3rem;
+}
+
+.regis{
+    color: #f780ff;
+}
+.regis:hover{
+    color: #cd76ff;
+}
+
+
